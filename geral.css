@@ -1,1 +1,25 @@
+:root {
+--cor_de_fundo:#E61D00;
+--cor_principal:#000000;
+--cor_de_rodape:#F0C10F;
 
+}
+* {
+   margin: 0;
+padding: 0;
+}
+.banner {
+width: 100%;
+height: 100px;
+background-color: var(--cor_de_fundo);
+}
+.rodape{
+    background-color: var(--cor_de_fundo);
+    width: 100%;
+    height: 25px;
+
+}
+.conteudo{
+width: 500%;
+height: 200px;
+}
